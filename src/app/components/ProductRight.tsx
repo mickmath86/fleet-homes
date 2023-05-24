@@ -26,13 +26,14 @@ export default function ProductRight() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2>
+              <h2 className="text-base font-semibold leading-7 text-indigo-600">Unlock the Speed of Success</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                iste dolor cupiditate blanditiis ratione.
+              At Fleet Ventures, our mission is to empower property owners and investors by unlocking the full potential of real estate through both <strong>cash</strong> and <strong>creative financing </strong>solutions. 
+                We strive to bridge the gap between sellers looking to maximize their property's value and buyers seeking lucrative investment opportunities.
+                 
               </p>
-              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+              {/* <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">
@@ -42,11 +43,22 @@ export default function ProductRight() {
                     <dd className="inline">{feature.description}</dd>
                   </div>
                 ))}
-              </dl>
+              </dl> */}
             </div>
+            <div className="mt-10 flex items-center gap-x-6">
+                    <a
+                      href="#"
+                      className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    >
+                      Learn More
+                    </a>
+                    {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                      Contact <span aria-hidden="true">→</span>
+                    </a> */}
+                  </div>
           </div>
           <img
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            src="product1.png"
             alt="Product screenshot"
             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
             width={2432}

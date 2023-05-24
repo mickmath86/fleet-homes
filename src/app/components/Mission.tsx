@@ -13,15 +13,13 @@ const stats = [
             <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
               <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                 <p className="text-xl leading-8 text-gray-600">
-                  Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam
-                  eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget.
-                  Eleifend egestas fringilla sapien.
+                At Fleet Ventures, our mission is to empower property owners and investors by unlocking the full potential of real estate through innovative and creative financing solutions. 
+                We strive to bridge the gap between sellers looking to maximize their property's value and buyers seeking lucrative investment opportunities.
+                 Our dedicated team of real estate experts is committed to providing transparent, efficient, and personalized services that exceed our clients' expectations. 
+                 
                 </p>
-                <p className="mt-10 max-w-xl text-base leading-7 text-gray-700">
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                  vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                  erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                  semper sed amet vitae sed turpis id.
+                <p className="mt-10 text-xl leading-8 text-gray-600">
+                With a focus on integrity, collaboration, and long-term partnerships, we aim to revolutionize the real estate industry, creating opportunities for growth and prosperity for all stakeholders involved.
                 </p>
               </div>
               <div className="lg:flex lg:flex-auto lg:justify-center">
