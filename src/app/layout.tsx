@@ -16,7 +16,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
-      <p>This is the bottom of the page</p>
     </html>
   )
 }
